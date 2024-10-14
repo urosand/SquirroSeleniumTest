@@ -1,0 +1,19 @@
+
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+    <suite name="Smoke Test">
+
+    <test name="SMOKE TEST">
+
+        <classes>
+
+            <!-- TRIAL  -->
+            <class name="com.example.squirroseleniumtest.scenarios.ValidLogInLogOutTest"/>
+            <class name="com.example.squirroseleniumtest.scenarios.MakeSquirroGPTCompanyDataTest"/>
+
+        </classes>
+    </test>
+
+</suite>
+
+        <!-- mvn test -Dsurefire.suiteXmlFiles=src/test/suite/HighPriority_SmokeTest.xml -->
