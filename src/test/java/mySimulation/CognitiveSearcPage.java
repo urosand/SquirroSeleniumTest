@@ -13,6 +13,7 @@ import static io.gatling.javaapi.jdbc.JdbcDsl.*;
 
 public class CognitiveSearcPage extends Simulation {
 
+  // test uros
   private HttpProtocolBuilder httpProtocol = http
     .baseUrl("https://start.squirro.com")
     .inferHtmlResources()
